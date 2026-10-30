@@ -1,0 +1,99 @@
+/* MAIN APPLICATION */
+
+.app {
+  min-height: 100vh;
+  text-align: center;
+  background-color: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  background-color: #232f3e;
+  color: white;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+/* PRODUCT CARD */
+
+.product-card {
+  background-color: white;
+  width: 350px;
+  max-width: 85%;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.product-card h2 {
+  color: #232f3e;
+}
+
+.product-card h3 {
+  color: #333;
+}
+
+/* INPUT AND DROPDOWN */
+
+select,
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 85%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* BUTTONS */
+
+button {
+  background-color: #ff9900;
+  color: black;
+  border: none;
+  padding: 10px 14px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e68a00;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+/* CART DETAILS */
+
+.cart-details {
+  background-color: #f1f5f9;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+/* SHOW HIDE SECTION */
+
+.toggle-section {
+  margin-top: 25px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #232f3e;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
